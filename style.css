@@ -62,13 +62,21 @@ width: 32px;
 height: 32px;
 background: white var(--switch-bg-url) no-repeat
 center;
-border-radius: 50%;
 border: 0;
+border-radius: 50%;
 position: absolute;
+top: 50%;
 z-index: 1;
 transform: translateY(-50%);
-top: 50%;
+  animation: slide-out 0.8s forwards;
 }
+.ligth #switch button {
+  animation: slide-in 0.8s forwards;
+}
+#switch button:hover{
+  outline: 8px solid var(--highlight-color)
+}
+
 #switch span {
   display: block;
   width: 64px;
@@ -78,11 +86,6 @@ top: 50%;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-}
-
-.ligth #switch button {
-  right: 0;
-  left: initial;
 }
 
 /* Links caixas de texto*/
@@ -151,4 +154,24 @@ footer{
 .ligth {
   --bg-url: url(./assets/bglight.jpg);
 }
+}
+
+/* animations */
+
+@keyframes slide-in {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from{
+    left: 50%;
+  }
+  to{
+    left: 0;
+  }
 }
