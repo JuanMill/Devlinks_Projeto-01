@@ -142,5 +142,13 @@ footer{
   text-align: center;
 }
 
-/* </script>: <script type="text/javascript" src="lib.js">
-              <script type="text/javascript" src="lib.js">
+/* media queries */
+
+@media (min-width: 700px) {
+:root {
+  --bg-url: url(./assets/bgdark.jpg);
+}
+.ligth {
+  --bg-url: url(./assets/bglight.jpg);
+}
+}
