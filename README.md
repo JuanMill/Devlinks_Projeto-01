@@ -19,10 +19,10 @@
   <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
 </p>
 
-
 <h1 align="center">  ♥Descrição♥  </h1>
 
 ## 🚀 Tecnologias 🚀
+
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
@@ -44,4 +44,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-<p align="center" >Feito com ♥ por Juan Pablo, com aopio da Rocketseat :wave: 
+<p align="center" >Feito com ♥ por Juan Pablo, com aopio da Rocketseat :wave:
